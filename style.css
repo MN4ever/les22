@@ -1,0 +1,108 @@
+body {
+  background-color: rgba(18, 18, 3, 0.934);
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+#container1 {
+}
+
+.title {
+  color: white;
+  margin: 50px 0 50px 0;
+}
+#nav {
+  
+}
+.nav {
+  margin: 80px 0 80px 0;
+  
+}
+.nav a {
+  color: white;
+  background-color: rgba(255, 228, 196, 0.036);
+  margin-left: 10px;
+}
+.nav a:hover {
+  color: white;
+  background-color: pink;
+}
+
+.col:hover {
+  opacity: 0.5;
+}
+
+/*-------------------------------------------- OVER MIJ  -------------------------------------------------*/
+
+.bio {
+  color: white;
+}
+.bio2 {
+  text-align: justify;
+  height: 350px;
+  width: auto;
+  margin: 50px 0 50px 0;
+  color: white;
+}
+/*-------------------------------------------- CONTACT -------------------------------------------------*/
+
+table {
+  align-items: center;
+  color: pink;
+}
+#form {
+  margin-bottom: 350px;
+  color: lightpink;
+  margin: 50px 0 350px 500px;
+
+}
+
+.gegevens {
+    margin: 50px 0 150px 0;
+  text-align: center;
+  color: lightpink;
+}
+.contactext {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.emailadress {
+  margin-bottom: 250px;
+}
+
+#footer {
+  background-color: rgba(86, 48, 68, 0.162);
+}
+
+footer {
+  text-align: center;
+  margin: 50px 0 0 0;
+  color: white;
+  background-color: rgba(97, 86, 86, 0.091);
+  height: 200px;
+}
+
+.footerText {
+  padding-top: 90px;
+}
+
+
+/* -------------------------------------BREAKPOINTS------------------------------------------ */
+@media (min-width:500px){
+    
+table {
+    margin-left: 50px;
+    margin-bottom: 350px;
+    align-items: center;
+    color: pink;
+  }
+}
+
+@media (max-width:1200px){
+    
+    table {
+        align-items: center;
+        color: pink;
+      }
+    }
